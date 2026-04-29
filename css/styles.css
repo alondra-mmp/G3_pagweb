@@ -71,3 +71,27 @@ h2 {
     footer .logo_container img { max-width: 80px; }
     footer .logo_container span { font-size: 1.2em; }
 }
+
+footer {
+    background-color: #F5F5F5;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+/* Logo en el footer */
+footer .logo_container { 
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .logo_container img {
+    max-width: 100px;
+    height: auto;
+}
+footer .logo_container span {
+    font-size: 1.5em;
+    white-space: nowrap;
+}
