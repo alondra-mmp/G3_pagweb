@@ -113,20 +113,36 @@ button {
   padding: 0 10px;
   font-size: 1rem;
   text-align: center;
-  color: white;  
+  color: #FFFFFF;  
   border-radius: 10px;
   background-color: #0A6E51;
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
 }
 
 button2 {
   border: 0;
   line-height: 2;
-  padding: 0 10px;
-  font-size: 1rem;
+  padding: 0 20px;
+  font-size: 0.8rem;
   text-align: center;
-  color: white;  
-  border-radius: 10px;
-  background-color: #BF3C02;
+  color: #FFFFFF;  
+  border-radius: 15px;
+  background-color: #EB5600;
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.styled:hover {
+  background-color: cadetblue;
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
 
 .categorias {
