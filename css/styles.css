@@ -30,6 +30,14 @@ header {
 
 header img { height: 60px; }
 
+nav { margin-right: 2%; }
+nav a {
+    color: silver;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 2em;
     margin: 0;
