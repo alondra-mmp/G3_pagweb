@@ -122,16 +122,6 @@ button {
   background-color: #0A6E51;
 }
 
-.button_styled:hover {
-  background-color: cadetblue;
-}
-
-.button_styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
-    inset 2px 2px 3px rgb(0 0 0 / 0.6);
-}
-
 button2 {
   border: 0;
   line-height: 2;
@@ -141,14 +131,4 @@ button2 {
   color: white;  
   border-radius: 10px;
   background-color: #BF3C02;
-}
-
-.button2_styled:hover {
-  background-color: cadetblue;
-}
-
-.button2_styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
-    inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
