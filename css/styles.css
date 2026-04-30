@@ -167,3 +167,13 @@ button2 {
     border-radius: 20px;
     text-align: center;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    footer .logo_container {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .logo_container img { max-width: 80px; }
+    footer .logo_container span { font-size: 1.2em; }
+}
