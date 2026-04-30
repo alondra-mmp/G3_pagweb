@@ -78,15 +78,6 @@ h4 {
     top: 30%; 
 }
 
-@media (max-width: 768px) {
-    footer .logo_container {
-        flex-direction: column;
-        text-align: center;
-    }
-    footer .logo_container img { max-width: 80px; }
-    footer .logo_container span { font-size: 1.2em; }
-}
-
 footer {
     background-color: #EBFCF6;
     color: rgb(0, 0, 0);
@@ -140,16 +131,6 @@ button2 {
     inset -2px -2px 3px rgb(0 0 0 / 0.6);
 }
 
-.styled:hover {
-  background-color: cadetblue;
-}
-
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
-    inset 2px 2px 3px rgb(0 0 0 / 0.6);
-}
-
 .categorias {
     display: flex;
     justify-content: center;
@@ -163,7 +144,7 @@ button2 {
 .categorias > div {
     flex: 0 1 220px;
     width: 220px; 
-    margin: 15px;
+    margin: 20px;
     border-radius: 20px;
     text-align: center;
 }
