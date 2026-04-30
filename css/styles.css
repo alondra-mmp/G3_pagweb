@@ -38,6 +38,12 @@ nav a {
     font-weight: bold;
 }
 
+nav2 a {
+    color: silver;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
 h1 {
     font-size: 2em;
     margin: 0;
