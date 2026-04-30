@@ -38,8 +38,8 @@ nav a {
     font-weight: bold;
 }
 
-nav2 a {
-    color: silver;
+nav2 {
+    color: #EDEDED;
     text-decoration: none;
     margin: 0 15px;
 }
