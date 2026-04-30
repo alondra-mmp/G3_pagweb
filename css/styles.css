@@ -103,7 +103,7 @@ footer .logo_container span {
 }
 
 /*Botones*/
-button {
+.button {
   border: 0;
   line-height: 2;
   padding: 0 10px;
@@ -117,7 +117,7 @@ button {
     inset -2px -2px 3px rgb(0 0 0 / 0.6);
 }
 
-button2 {
+.button2 {
   border: 0;
   line-height: 2;
   padding: 0 20px;
